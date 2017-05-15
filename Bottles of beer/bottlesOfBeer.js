@@ -1,4 +1,4 @@
-﻿var beerBottles = 99;
+var beerBottles = 99;
 
 function formatLines(bottle) {
   var songLine = '<p> {0} bottles of beer on the wall <br> ' +
@@ -20,7 +20,7 @@ function formatLines(bottle) {
 var container = document.getElementById('songContainer');
 var lines = '';
 
-for (var bi = beerBottles; i > 0; i--) {
+for (var i = beerBottles; i > 0; i--) {
   lines += formatLines(i);
 }
 
